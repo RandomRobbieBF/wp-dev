@@ -7,3 +7,4 @@ hooks:
     - exec: "wp user import-csv ./$DDEV_DOCROOT/.ddev/users.csv --skip-update"
     - exec: "wp user update superadmin --display_name='Super Admin'"
     - exec: "wp plugin activate wpscan-poc-helper"
+    - exec: "wp plugin activate popplugin"
